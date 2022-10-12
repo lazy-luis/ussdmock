@@ -49,6 +49,10 @@ const App = () => {
             setEntry("");
             setCurrentIndex(4);
             break;
+          case 3:
+            setEntry("");
+            setCurrentIndex(7);
+            break;
           default:
             break;
         }
@@ -166,10 +170,14 @@ const App = () => {
         switch (Number(entry)) {
           case 1:
             setEntry("");
+            setReturnIn(7);
+            setReturnTo("Transfer");
             setCurrentIndex(7.14);
             break;
           case 2:
             setEntry("");
+            setReturnIn(7);
+            setReturnTo("Transfer");
             setCurrentIndex(7.15);
             break;
           case 3:
